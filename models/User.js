@@ -24,10 +24,18 @@ const UserSchema = new Schema(
      friends: [{
          type: Schema.Types.ObjectId,
          ref: 'User'
-     }]
+     }],
 
+    },
 
-})
+    {
+
+     toJSON: {
+         virtuals: true
+     },
+     id: false
+
+});
 
 // plug in virtual
 // this will be used in routes
@@ -38,3 +46,5 @@ UserSchema.virtual('friendCount').get(function () {
 const User = model('User', UserSchema);
 
 module.exports = User;
+
+

@@ -1,4 +1,4 @@
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 const { stringify } = require('qs');
 
 // add schema models here
@@ -23,14 +23,18 @@ const ReactionSchema = new Schema(
          default: Date.now 
          // Use a getter method to format the timestamp on query
      }
-
-
-})
+    },
+    {
+        toJSON: {
+            getters: true
+        },
+        id: false
+});
 
 // plug in virtual
 // this will be used in routes
 
 
-const Reaction = model('Reaction', ReactionSchema);
+//const Reaction = model('Reaction', ReactionSchema);
 
-module.exports = Reaction;
+module.exports = ReactionSchema;

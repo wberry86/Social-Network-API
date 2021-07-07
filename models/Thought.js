@@ -1,5 +1,6 @@
 const { Schema, model } = require('mongoose');
 const { stringify } = require('qs');
+const reactionSchema = require('./Reaction');
 
 // add schema models here
 
@@ -21,8 +22,15 @@ const ThoughtSchema = new Schema(
          type: String,
          required: true
      },
-     reactions: [{}]
-})
+     reactions: [reactionSchema]
+    },
+    {
+        toJSON: {
+            virtuals: true,
+            getters: true
+        },
+        id: false
+});
 
 // plug in virtual
 // this will be used in routes
