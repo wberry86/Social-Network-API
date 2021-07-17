@@ -10,6 +10,8 @@
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+  - [Link to Webpage](#link)
+  - [Screenshots](#screenshots)
   ## Description:
   This exercise is designed to utilize MongoDB as the database of choice while learning the methods of NoSQL.  The challenge is to build an API for a social network web application where users can share thoughts and react to thoughts and also create friend lists. 
   ## Installation:
@@ -28,3 +30,9 @@
 
   - Github: [wberry86](https://github.com/wberry86)
   - Email: wberry86@gmail.com
+
+  ## Link
+
+  ## Screenshots
+
+  
