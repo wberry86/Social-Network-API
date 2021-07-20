@@ -7,7 +7,7 @@ const reactionRoutes = require('./reaction-routes');
 router.use('/users', userRoutes);
 router.use('/thoughts', thoughtRoutes);
 router.use('/reactions', reactionRoutes);
-// route for /api/users/:userId/friends/:friendId
-// route for /api/thoughts/:thoughtId/reactions
+//route for /api/users/:userId/friends/:friendId
+//route for /api/thoughts/:thoughtId/reactions
 
 module.exports = router;

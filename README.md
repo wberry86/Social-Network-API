@@ -32,7 +32,17 @@
   - Email: wberry86@gmail.com
 
   ## Link
+  [professional readme generator](https://github.com/wberry86/professional-README-generator)
 
   ## Screenshots
+  ![screenshot](https://github.com/wberry86/professional-README-generator/blob/main/Develop/img/readme-capture.PNG)
+
+  <br>
+
+  ![screenshot](https://github.com/wberry86/professional-README-generator/blob/main/Develop/img/readme-capture.PNG)
+
+  <br>
+
+  ![screenshot](https://github.com/wberry86/professional-README-generator/blob/main/Develop/img/readme-capture.PNG)
 
   
