@@ -10,7 +10,7 @@
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
-  - [Link to Webpage](#link)
+  - [Link to Walkthrough Video](#link)
   - [Screenshots](#screenshots)
   ## Description:
   This exercise is designed to utilize MongoDB as the database of choice while learning the methods of NoSQL.  The challenge is to build an API for a social network web application where users can share thoughts and react to thoughts and also create friend lists. 
@@ -32,7 +32,9 @@
   - Email: wberry86@gmail.com
 
   ## Link
-  [professional readme generator](https://github.com/wberry86/professional-README-generator)
+  [Walkthrough Video pt. 1](https://drive.google.com/file/d/1GmvCM4kfaYVt89-0CAu7LDvI7xUWdQKo/view)
+  <br/>
+  [Walkthrough Video pt. 2](https://drive.google.com/file/d/11ce5Ch4Pon3msNtiGMviUPLqh9fj9Ktm/view)
 
   ## Screenshots
   ![screenshot](https://github.com/wberry86/professional-README-generator/blob/main/Develop/img/readme-capture.PNG)
